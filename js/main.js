@@ -9,8 +9,10 @@ $(document).ready(function() {
 	$.ajax({
 		url: "templates/" + hash + ".html",
 		type: 'GET',
-		crossDomain: true,
-		success: function() { $('#container').html(data); }
+		crossDomain: true
+	}
+	}).done(function(data){
+		('#container').html(data);
 	});
 
 	$('li > a').click(function() {
