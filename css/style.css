@@ -1,0 +1,48 @@
+body
+{
+	background-color: #dddddd;
+}
+
+#header
+{
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: #eeeeee;
+	background-color: #111111;
+	width: 100%;
+}
+
+.navbar, ul
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	list-style-type: none;
+}
+
+li > a
+{
+	padding: 15px;
+	margin: auto 20px;
+	color: #444444;	
+	text-decoration: none;
+	font-family: "Comic Sans MS", Cursive;
+}
+
+span
+{
+	font-size: 100%;
+	color: #444;
+}
+
+.active
+{
+	color: #eeeeee;	
+}
