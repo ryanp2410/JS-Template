@@ -10,7 +10,6 @@ $(document).ready(function() {
 		url: "templates/" + hash + ".html",
 		type: 'GET',
 		crossDomain: true
-	}
 	}).done(function(data){
 		('#container').html(data);
 	});
